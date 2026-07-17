@@ -37,3 +37,18 @@ I was having a hard time understanding the API functionalities, but everything b
 - OS info shows the machine details like memory and CPU
 - Crypto is for securing data, hashes, and simple encryption
 - HTTP servers handle requests and send pages or API responses
+
+### MongoDB crash course
+
+Document database, data stored like JSON/BSON
+Good for flexible data and fast setup because the schema can stay open at first
+One document can keep related data together instead of splitting everything into tables
+Useful for CRUD apps, cloud databases, and projects that need to scale easily
+Aggregation pipelines help shape data for apps, and indexes help query speed
+Atlas, Compass, VS Code, and Node.js all make it easier to build and test with MongoDB
+
+- `insertOne` and `insertMany` for adding single or multiple documents
+- `find` and `findOne` for reading data and filtering what you need
+- `updateOne` and `updateMany` for changing existing data without rebuilding everything
+- `deleteOne` and `deleteMany` for removing old or unwanted records
+- `aggregate` for shaping data before sending it to an app
