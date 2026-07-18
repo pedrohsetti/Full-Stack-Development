@@ -52,3 +52,13 @@ Atlas, Compass, VS Code, and Node.js all make it easier to build and test with M
 - `updateOne` and `updateMany` for changing existing data without rebuilding everything
 - `deleteOne` and `deleteMany` for removing old or unwanted records
 - `aggregate` for shaping data before sending it to an app
+
+### Express crash course
+
+Web framework for Node.js
+Building backend APIs consumed by front-end frameworks
+Simplifies process of handling HTTP req and res
+Different ways to do same thing, bare necessities, flexible structure
+When implementing the __dirname workaround, the root path showed a 404 instead of the home page. Moved express.static before the notFound middleware.
+Frontend form submission was logging POST requests in the console, but the post controller wasn't logging anything, and no posts were being created. Postman requests worked perfectly. The HTML input field had an `id="title"` but was missing the `name` attribute. FormData API reads from the `name` attribute, not `id`, so `formData.get('title')` was returning `null`.
+EJS lets me render dynamic HTML by passing data from the route to the view.
