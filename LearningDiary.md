@@ -62,3 +62,6 @@ Different ways to do same thing, bare necessities, flexible structure
 When implementing the __dirname workaround, the root path showed a 404 instead of the home page. Moved express.static before the notFound middleware.
 Frontend form submission was logging POST requests in the console, but the post controller wasn't logging anything, and no posts were being created. Postman requests worked perfectly. The HTML input field had an `id="title"` but was missing the `name` attribute. FormData API reads from the `name` attribute, not `id`, so `formData.get('title')` was returning `null`.
 EJS lets me render dynamic HTML by passing data from the route to the view.
+
+### React crash course
+
