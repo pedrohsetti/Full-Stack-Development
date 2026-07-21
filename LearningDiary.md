@@ -65,3 +65,11 @@ EJS lets me render dynamic HTML by passing data from the route to the view.
 
 ### React crash course
 
+React makes it easy to create dynamic applications, with many triggers and reactions. The challenge is to manage multiple files, folder structures, import/export, and props, when even in small applications it gets pretty convoluted. That's why readability and organisation is so important.
+There was a routing bug because the tutorial used old React Router syntax. Fixed by wrapping Route into Routes element, which showed me how small version mismatches can break navigation completely.
+The course navigated me through working on the task tracker app and, in the end, I connected it to a json-server backend, which made the app feel more like a real project instead of only a frontend demo.
+- Learned how to split the app into reusable components like Header, Tasks, Task, About, and Footer
+- Used useState and useEffect to load tasks from the server and keep the UI updated when tasks are added, deleted, or toggled
+- Added react-router-dom so the app can move between the main task view and the About page (`<Link>` element instead of `<a>` tag for seamless navigation without reloading the page)
+- State often needs to be lifted into App so props can be passed down more cleanly
+- App depends on the correct and exact route names, ids, and request methods, so small mismatches can completely break it
