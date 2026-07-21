@@ -73,3 +73,11 @@ The course navigated me through working on the task tracker app and, in the end,
 - Added react-router-dom so the app can move between the main task view and the About page (`<Link>` element instead of `<a>` tag for seamless navigation without reloading the page)
 - State often needs to be lifted into App so props can be passed down more cleanly
 - App depends on the correct and exact route names, ids, and request methods, so small mismatches can completely break it
+
+### MERN stack
+
+Since all of the contents were fresh in my mind from the previous crash courses, I decided to jump right on to the planning and development of my project, following the tutorial videos for specific needs (developing the RESTAPI and authentication, eg)
+I run a freelancing web development business for local SMEs and I realised that I rely on third party providers for appointment booking and event management, for me and my clients. That reduces my control over what I can offer as a service and ties me to subscriptions
+I decided to build this scheduling and event management platform with the MERN stack, as close as I can get to the real life application I'd deploy and eventually sell to real customers
+I started by planning the development by listing the goals, features, drawing the system architecture, and visualizing user and data flow
+My approach to the development was to build the backend folder/file structure based on the system architecture and video tutorials, then implement the REST API and authentication.
