@@ -80,4 +80,9 @@ Since all of the contents were fresh in my mind from the previous crash courses,
 I run a freelancing web development business for local SMEs and I realised that I rely on third party providers for appointment booking and event management, for me and my clients. That reduces my control over what I can offer as a service and ties me to subscriptions
 I decided to build this scheduling and event management platform with the MERN stack, as close as I can get to the real life application I'd deploy and eventually sell to real customers
 I started by planning the development by listing the goals, features, drawing the system architecture, and visualizing user and data flow
-My approach to the development was to build the backend folder/file structure based on the system architecture and video tutorials, then implement the REST API and authentication.
+My approach to the development was to build the backend folder/file structure based on the planned system architecture and video tutorials, then implement the REST API.
+I then implemented the middlewares, controllers, and routes for the app, created and started the database models as well as each of the roles and their respective functionalities.
+After setting up the authentication and authorization, I started testing the API with Postman, and after a few adjustments and bug fixes, I was able to test all the endpoints and functionalities of the backend.
+The biggest challenge was to work with different user models and their respective permissions, to make sure they were in sync and that the necessary data was being propagated to the right places. I also had to make sure that the data was being stored correctly in the database, and that the relationships between the different models were working as expected.
+Once the backend was ready, and I moved on to the frontend development, with the same approach of planning the folder/file structure, following the youtube tutorial and system architecture.
+The first goal was to create a placeholder app shell with a reusable application layout that can support login and authentication, business management, appointments, events, customers, staff, and analytics.
